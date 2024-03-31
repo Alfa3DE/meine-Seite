@@ -1,0 +1,41 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7dede; 
+}
+
+header {
+    background-color: #f30000;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #3d3838;
+}
+
+.menu li a:hover {
+    background-color: #1f1c1c; 
+}

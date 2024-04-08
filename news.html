@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Новини</title>
     <style>
-        /* Стилі тексту */
+        li{
+            list-style: none;
+            text-decoration: none;
+        }
         h1 {
             color: blue;
         }
@@ -15,9 +18,8 @@
         .important {
             font-weight: bold;
         }
-        /* Стилі кнопки */
         .btn {
-            background-color: #4CAF50; /* Зелений колір */
+            background-color: #4CAF50; 
             border: none;
             color: white;
             padding: 10px 20px;
@@ -29,24 +31,32 @@
             cursor: pointer;
         }
         .btn:hover {
-            background-color: #45a049; /* Зелений колір при наведенні */
+            background-color: #45a049; 
+        }
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .table{
+            margin: 0 auto;
         }
     </style>
 </head>
-<body>
-    <!-- Заголовок -->
-    <h1>Останні новини</h1>
-    <!-- Параграфи -->
+<body class="container">
+
+    <h1>Останні активності</h1>
+
     <p>Нова стаття на нашому сайті.</p>
     <p class="important">Це важлива новина!</p>
-    <!-- Форма -->
+
     <form>
         <label for="email">Підпишіться на розсилку новин:</label><br>
         <input type="email" id="email" name="email" placeholder="Введіть ваш email"><br><br>
         <button type="submit" class="btn">Підписатися</button>
     </form>
     <br>
-    <!-- Список -->
+
     <h2>Список нових статей:</h2>
     <ul>
         <li>Стаття 1</li>
@@ -54,9 +64,9 @@
         <li>Стаття 3</li>
     </ul>
     <br>
-    <!-- Таблиця -->
+
     <h2>Таблиця новин:</h2>
-    <table border="1">
+    <table border="1" class="table">
         <tr>
             <th>Заголовок</th>
             <th>Дата</th>
@@ -71,12 +81,12 @@
         </tr>
     </table>
     <br>
-    <!-- Зображення -->
+
     <h2>Нове зображення:</h2>
     <img src="shablon-krysa-ratatuy-mem.jpg" alt="Нове зображення" width="300">
     <br><br>
-    <!-- Відео -->
+
     <h2>Відео</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=6YgG--JnPbQ&ab_channel=%D0%A2%D0%B5%D0%BF%D0%B5%D1%80%D1%8C%D1%8F%D0%BF%D0%B8%D1%80%D0%B0%D1%82 frameborder="0" allowfullscreen></iframe>
+    <iframe width="1519" height="577" src="https://www.youtube.com/embed/9F6BXKN-sYM" title="Підключення до MongoDB #howto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>

@@ -3,16 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Головна сторінка</title>
+    <title>Stock Photo</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Cайт для розміщення фото</h1>
-    <p>Ласкаво просимо на наш веб-сайт!</p>
-        <p>Тут ви можете розмістити свої фото та відео! </p>
-    <a href="about.html">Про нас</a>
-    <a href="news.html">Новини</a>
-    <a href="services.html">Послуги</a>
-    <a href="contact.html">Контакти</a>
-    <a href="gallery.html">Галерея</a>
+    <div class="wrapper">
+        <header>
+        <h1>Stock Photo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./HTML/news.html">News</a></li>
+                <li><a href="./HTML/about.html">About</a></li>
+                <li><a href="./HTML/contact.html">Contact</a></li>
+                <li><a href="./HTML/gallery.html">Gallery</a></li>
+                <li><a href="./HTML/services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class = "main">
+        <section class="hero">
+            <h2>Discover Amazing Content</h2>
+            <p>Welcome to our website. Explore our latest news, learn about our services, and get in touch!</p>
+            <a href="./HTML/news.html" class="button">Read Latest News</a>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Learn more about who we are and our mission.</p>
+            <a href="./HTML/about.html" class="button">Learn More</a>
+        </section>
+
+        <section class="services">
+            <h2>Our Services</h2>
+            <p>Discover the range of services we offer.</p>
+            <a href="./HTML/services.html" class="button">View Services</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+    </div>
 </body>
 </html>

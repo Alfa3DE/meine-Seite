@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини</title>
+    <link rel="stylesheet" href="/CSS/news.css">
+       
+</head>
+<body>
+    <div class="wrapper">
+          <header>
+        <h1>News</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="container">
+            
+    <main class="main">
+        <h1>Останні активності</h1>
+
+        <p>Нова стаття на нашому сайті.</p>
+        <p class="important">Це важлива новина!</p>
+
+        <form>
+            <label for="email">Підпишіться на розсилку новин:</label><br>
+            <input type="email" id="email" name="email" placeholder="Введіть ваш email"><br><br>
+            <button type="submit" class="btn" href = "#">Підписатися</button>
+        </form>
+        <br>
+
+        <h2>Список нових зображень:</h2>
+        <ul>
+            <img src="/IMG/unnamed.jpg" alt="Нове зображення" >
+            <img src="/IMG/cartoon-rat-with-angry-expression_29190-7218.avif" alt="Нове зображення" >
+            <img src="/IMG/a2a8f8eac9ed45298868c21177f3.jpg" alt="Нове зображення" width="700" >
+        </ul>
+        <input type="file" id="imageInput" style="display: none;" accept="image/*" />
+        <button class="btn" id="addImg">Додати фото</button>
+        <img id="imageDisplay" src="" width = "500"/>
+        <br>
+
+        <h2>Таблиця завантаженних фото:</h2>
+        <table border="1" class="table">
+            <tr>
+                <th>Зображення</th>
+                <th>Дата</th>
+            </tr>
+            <tr>
+                <td>IMG_KRISA_1</td>
+                <td>01.01.2023</td>
+            </tr>
+            <tr>
+                <td>IMG_KRISA_2</td>
+                <td>02.01.2023</td>
+            </tr>
+            <tr>
+                <td>IMG_KRISA_3</td>
+                <td>03.01.2023</td>
+            </tr>
+        </table>
+        <br>
+
+        <h2>Нове зображення:</h2>
+        <img src="/IMG/shablon-krysa-ratatuy-mem.jpg" alt="Нове зображення" width="300">
+        <br><br>
+
+        <h2>Відео</h2>
+        <iframe width="1280" height="540" src="https://www.youtube.com/embed/5GXQFHnV280" title="Рататуй - про смак як колір і музику" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+    
+        </div>
+      
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+
+    <script src="/JavaSquirt/news.js"></script>
+    </div>
+    
+</body>
+
+</html>
